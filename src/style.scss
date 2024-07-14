@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header {
+    border-bottom: 1px solid rgb(161, 159, 159);
+}
+.header-wrap {
+    height: 100px;
+
+    background-image: url(/src/img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.promo {
+    height: 300px;
+    border-bottom: 1px solid black;
+
+}
+.catalog-wrap {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.goods-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+
+}
+.good {
+    width: 150px;
+    height: 200px;
+    border: 1px solid #5f5e5e;
+}
+.good1, .good2, .good3, .good4{
+    background-image: url(/src/img/goods/riet/champignon-oyster-mushroom.jfif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+footer {
+    height: 300px;
+    background-color: #999898;
+}
